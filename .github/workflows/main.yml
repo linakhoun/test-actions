@@ -1,7 +1,7 @@
 name: test-actions
 on: push
 jobs:
-  test-job:
+  test-job1:
     name: test-job1
     runs-on: ubuntu-latest
     steps:
