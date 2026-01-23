@@ -9,4 +9,9 @@ jobs:
         run: echo "Salut actions!"
       - name: verification du runner
         run: cat /etc/os-release
-        
+  test-job2:
+    name: test-job2
+    runs-on: ubuntu-latest
+    steps:
+      - name: verification du hostname
+        run: hostname
