@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: say hello
-        run: echo "Salut actions!"
+        run: echo "Salut actions!!"
       - name: verification du runner
         run: cat /etc/os-release
   test-job2:
